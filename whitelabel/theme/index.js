@@ -1,3 +1,3 @@
-import styles from './solarized-dark';
+const styles = require('./solarized-light').default;
 
 module.exports = fileName => styles[fileName] || {};

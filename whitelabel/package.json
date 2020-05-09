@@ -1,8 +1,10 @@
 {
-  "name": "whiteLabel",
+  "name": "whitelabel",
   "version": "0.0.1",
   "private": true,
   "scripts": {
+    "install:ios": "cd ./ios && pod install",
+    "install:keygen": "cd ./android/app && keytool -genkey -v -keystore debug.keystore -storepass android -alias androiddebugkey -keypass android -keyalg RSA -keysize 2048 -validity 10000",
     "android": "react-native run-android",
     "ios": "react-native run-ios",
     "start": "react-native start",
