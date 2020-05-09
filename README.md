@@ -6,11 +6,11 @@ Based on a tutorial by <a href="https://medium.com/welld-tech/one-app-to-rule-th
 
 ### Running this code
 * Clone the repository
-* Run `cd react-native-white-label/whitewhitelabel` to navigate to the project repository
+* Run `cd react-native-white-label/whitelabel` to navigate to the project repository
 * Run `npm i` to install the node dependencies
 
 ###### IOS
-* Make sure you have XCode, XCode Developer tools and a Simulator set up
+* Make sure you have XCode, XCode Developer tools and a simulator set up
 * Run `npm run install:ios`
 * Run `npm run ios` to launch the application on your IOS simulator (this might take a while)
 
