@@ -1,9 +1,12 @@
 import React from 'react';
 import {Text, View} from 'react-native';
+import styles from '../theme/solarized-dark/Module';
 
 const FooComponent = () => (
-  <View>
-    <Text>Module Foo</Text>
+  <View style={styles.container}>
+    <Text style={styles.text}>
+      Module <Text style={styles.accent}>Foo</Text>
+    </Text>
   </View>
 );
 
