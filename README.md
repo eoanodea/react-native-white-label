@@ -6,6 +6,10 @@ Based on a tutorial by <a href="https://medium.com/welld-tech/one-app-to-rule-th
 
 ### White Label Configuration
 
+The white-label configuration script allows to configure the `whitelabel`
+project to use a specific combination of modules and a specific theme, without
+directly changing the source code. It can be run from the root directory with
+
 ```
 ./wl-configure.sh -a whitelabel -m Foo,Baz -t solarized-dark
 ```
