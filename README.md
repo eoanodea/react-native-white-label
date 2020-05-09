@@ -4,6 +4,22 @@
 
 Based on a tutorial by <a href="https://medium.com/welld-tech/one-app-to-rule-them-all-building-a-white-label-application-with-react-native-9d30f69eb3ae">Amedo Zucchetti</a>
 
+### Running this code
+* Clone the repository
+* Run `cd react-native-white-label/whitewhitelabel` to navigate to the project repository
+* Run `npm i` to install the node dependencies
+
+###### IOS
+* Make sure you have XCode, XCode Developer tools and a Simulator set up
+* Run `npm run install:ios`
+* Run `npm run ios` to launch the application on your IOS simulator (this might take a while)
+
+###### Android
+* Make sure you have Android Studio, and an android emulator installed
+* Make sure you have followed the <a href="https://reactnative.dev/docs/environment-setup">React Native environment setup guide</a>
+* Run `npm run install:keygen` and answer the questions when prompted
+* Run `npm run android` to launch the application on your Android Emulator
+
 ### White Label Configuration
 
 The white-label configuration script allows to configure the `whitelabel`
