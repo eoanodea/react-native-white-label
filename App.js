@@ -2,7 +2,7 @@ import React from 'react';
 import {Text, View, SafeAreaView} from 'react-native';
 import modules from './modules';
 
-import styles from './theme/solarized-dark/App';
+import styles from './theme/solarized-light/App';
 
 export default () => (
   <SafeAreaView style={styles.container}>

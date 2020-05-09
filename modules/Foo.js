@@ -1,6 +1,6 @@
 import React from 'react';
 import {Text, View} from 'react-native';
-import styles from '../theme/solarized-dark/Module';
+import styles from '../theme/solarized-light/Module';
 
 const FooComponent = () => (
   <View style={styles.container}>
