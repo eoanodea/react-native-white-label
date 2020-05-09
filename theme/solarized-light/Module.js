@@ -13,7 +13,7 @@ export default StyleSheet.create({
     color: '#657b83',
   },
   accent: {
-    color: '#268bd2',
+    color: '#C53F37',
     fontWeight: 'bold',
   },
 });

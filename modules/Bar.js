@@ -1,6 +1,6 @@
 import React from 'react';
 import {Text, View} from 'react-native';
-import styles from '../theme/solarized-light/Module';
+const styles = require('../theme')('Module');
 
 const BarComponent = () => (
   <View style={styles.container}>
